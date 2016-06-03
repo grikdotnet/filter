@@ -1,0 +1,21 @@
+{
+    "name": "grikdotnet/filter",
+    "description": "Filter extension rules builder with a chainable API",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Grigori",
+            "email": "public@grik.net"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "lib-pcre": "*"
+    },
+    "autoload": {
+        "psr-4": {"GK\\Filter\\": ""}
+    }
+}
